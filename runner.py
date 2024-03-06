@@ -9,7 +9,7 @@ pygame.init()
 screen = pygame.display.set_mode((w, h))
 pygame.display.set_caption('Hello World!')
 
-# define one player, a list of 'bullets'
+# define one player
 
 
 # define a list of bullets
