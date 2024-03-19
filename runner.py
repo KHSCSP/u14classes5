@@ -1,7 +1,7 @@
 import pygame, sys, random
 from pygame.locals import QUIT
 from bouncy_class import Bouncy
-from bullet_class import Bullet
+from laser_class import Laser
 
 w = 800
 h = 600
@@ -12,7 +12,7 @@ pygame.display.set_caption('Hello World!')
 # define one player
 
 
-# define a list of bullets
+# define a list of lasers
 
 
 # define a list of enemies
@@ -36,7 +36,7 @@ while True:
 
 
 
-    # bullets - move and draw
+    # lasers - move and draw
     # iterate through copy!! (for removal from list)
 
 
