@@ -6,7 +6,7 @@ screen = pygame.display.set_mode((400, 300))
 pygame.display.set_caption('Hello World!')
 
 # load a background image
-bg = pygame.image.load("u14/u14classes5/lighting.jpg")
+bg = pygame.image.load("u14classes5/lighting.jpg")
 
 # a custom class that uses an image
 from sprite_class import Sprite
