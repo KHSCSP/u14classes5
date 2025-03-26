@@ -5,10 +5,9 @@ class Sprite:
         self.x = xp
         self.y = yp
         self.size = sizep
-        self.pic = pygame.image.load("u14classes5/button.PNG")
-        self.pic = pygame.transform.scale(self.pic, (self.size, self.size))
-
+        # TODO load the image, resize
 
     def draw(self, screen):
-        screen.blit(self.pic, (self.x, self.y))
+        # TODO
+        pass
 

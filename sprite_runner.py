@@ -5,14 +5,15 @@ pygame.init()
 screen = pygame.display.set_mode((400, 300))
 pygame.display.set_caption('Hello World!')
 
-# load a background image
-bg = pygame.image.load("u14classes5/lighting.jpg")
+# TODO load a background image
+
 
 # a custom class that uses an image
 from sprite_class import Sprite
-s = Sprite(50, 50, 50)
+# TODO create a Sprite object
 
-# setup the font
+
+# setup the font, other variables
 my_font = pygame.font.Font('freesansbold.ttf', 12)
 timer = 0
 tick = 0
@@ -25,10 +26,11 @@ while True:
     
     # reset the screen
     # screen.fill((255, 255, 255))
-    screen.blit(bg, (0,0))
+    # TODO
 
-    # draw the sprite
-    s.draw(screen)
+
+    # TODO draw the sprite
+    
 
 
     # count ticks
@@ -37,9 +39,10 @@ while True:
     if tick >= 250: # related to the delay value
         timer += 1
         tick = 0 # don't allow ticks to get too large
-    # draw the text
-    text = my_font.render('Time: ' + str(timer), True, (0,0,0))
-    screen.blit(text, (0,0))
+    
+    # TODO draw the text
+
+
 
     # update the screen and pause
     pygame.display.update()
