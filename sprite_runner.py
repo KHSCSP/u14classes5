@@ -4,6 +4,8 @@ from pygame.locals import QUIT
 pygame.init()
 screen = pygame.display.set_mode((400, 300))
 pygame.display.set_caption('Hello World!')
+clock = pygame.time.Clock()
+FPS = 30
 
 # TODO load a background image
 
@@ -46,4 +48,4 @@ while True:
 
     # update the screen and pause
     pygame.display.update()
-    pygame.time.delay(3)
+    clock.tick(FPS)
